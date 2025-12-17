@@ -1,0 +1,87 @@
+{
+  "Version": 3,
+  "ConfVer": 0,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "符玄.moc3",
+    "Textures": [
+      "符玄.4096/texture_00.webp",
+      "符玄.4096/texture_01.webp",
+      "符玄.4096/texture_02.webp",
+      "符玄.4096/texture_03.webp",
+      "符玄.4096/texture_04.webp",
+      "符玄.4096/texture_05.webp",
+      "符玄.4096/texture_06.webp",
+      "符玄.4096/texture_07.webp"
+    ],
+    "Physics": "符玄.physics3.json",
+    "PhysicsV2": {
+      "File": "符玄.physics3.json"
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Items": [
+        {
+          "Id": "ParamEyeLOpen",
+          "Min": 0.0,
+          "Max": 1.0,
+          "BlendMode": 2,
+          "Input": 0
+        },
+        {
+          "Id": "ParamEyeROpen",
+          "Min": 0.0,
+          "Max": 1.0,
+          "BlendMode": 2,
+          "Input": 0
+        }
+      ],
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "Options": {
+    "ScaleFactor": 3.71000028,
+    "PositionX": -0.139945716,
+    "PositionY": -16.0764484,
+    "TexType": 1
+  }
+}
